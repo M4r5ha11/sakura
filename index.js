@@ -5,12 +5,12 @@ const eco = require("discord-economy");
 const booru = require('booru')
 // конфиг, команды
 const config = require("./config.json");
-const economy = require("./cmd/economy.js");
-const help = require("./cmd/help.js");
-const booruhelp= require("./cmd/booru.js");
-const info = require("./cmd/info.js");
-const si = require("./cmd/serverinfo.js");
-const stats = require("./cmd/stats.js");
+const economy = require("./economy.js");
+const help = require("./help.js");
+const booruhelp= require("./booru.js");
+const info = require("./info.js");
+const si = require("./serverinfo.js");
+const stats = require("./stats.js");
  // остальное
  client.on("ready", () => {
      console.log(`Привет, ${client.user.username} сейчас онлайн!`);
