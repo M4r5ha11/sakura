@@ -139,4 +139,4 @@ if(command === "kick") {
   }
 
  });
-client.login("NzMwMDk5MzgxMTQzMDc3MDM2.XwSkMw.L6BSKli18V15b4dFXy_ZQyP6e8g");
+client.login("your-token");
