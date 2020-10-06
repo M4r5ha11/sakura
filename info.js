@@ -20,7 +20,7 @@ client.on('message', message => {
       .setTitle('Информация обо мне:')
      
       .setColor("RANDOM")
-            .setDescription(`__**Сакура v0.0.3**__\nИспользуется: Node ${process.version}\ndiscord.js v${require('discord.js').version}\nОЗУ: ${formatBytes(os.totalmem() - os.freemem(), 1)}/${formatBytes(os.totalmem(), 1)} - ${((os.totalmem() - os.freemem()) / os.totalmem()*100).toFixed(2)}%\nЦП: ${(100 - (getCPUInfo() * 100)).toFixed(2)}%\nЭкономика.JS v1\n\nРазработчик: iNSaNiTY#7317`);
+            .setDescription(`__**Сакура v0.0.3**__\nИспользуется: Node ${process.version}\ndiscord.js v${require('discord.js').version}\nОЗУ: ${formatBytes(os.totalmem() - os.freemem(), 1)}/${formatBytes(os.totalmem(), 1)} - ${((os.totalmem() - os.freemem()) / os.totalmem()*100).toFixed(2)}%\nЦП: ${(100 - (getCPUInfo() * 100)).toFixed(2)}%\nЭкономика.JS v1\n\nРазработчик: M4r5ha11`);
     message.channel.send(embed);
   }
 function formatBytes(bytes, decimals) {
