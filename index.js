@@ -112,7 +112,6 @@ if(command === "kick") {
   }
   
   if(command === "ban") {
-       //  ;) еее бан и говнокод=)))))
     if(!message.member.roles.cache.some(r=>["Administrator"].includes(r.name)))
       return message.reply("Тебе нужна роль Administrator с правами чтобы выполнить эту команду.");
     
